@@ -23,19 +23,27 @@ DeepSeek Harness（DSH）Web UI 插件：在侧边栏显示当前 **SiliconFlow*
 
 ## 安装
 
-在 DSH Web UI 的插件管理中安装这个包（`install_bundle`），目标填仓库地址：
-
-```
-https://github.com/zhangle83/dsh-siliconflow-usage
-```
-
-若你的 DSH 版本只接受 npm 风格 spec，可改用：
+在 DSH Desktop / Web UI 的 **插件（Plugins）** 页选择安装组合包，把下面的 spec 粘贴进去：
 
 ```
 github:zhangle83/dsh-siliconflow-usage
 ```
 
+等价的 HTTPS Git 地址（两者都走 `git ls-remote` + `pnpm add`）：
+
+```
+https://github.com/zhangle83/dsh-siliconflow-usage.git
+```
+
+如果只想下载快照、不走 Git，可用 tarball：
+
+```
+https://github.com/zhangle83/dsh-siliconflow-usage/archive/refs/heads/main.tar.gz
+```
+
 安装后刷新页面。插件会写入当前 profile 的 `dsh.profile.bundles`，重启后仍然生效。
+
+> 安装前 DSH 会对 GitHub 仓库做一次 5 秒的 `git ls-remote` 连通性检查；网络到 `github.com` 不通时这一步会报 `failedAt: 'spec-host'`，与包本身无关。
 
 ### 本地开发安装
 
