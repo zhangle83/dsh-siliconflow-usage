@@ -1,0 +1,52 @@
+{
+  "name": "dsh-siliconflow-usage",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SiliconFlow price and per-session token/cost card for the DeepSeek Harness Web UI.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "siliconflow",
+    "usage",
+    "pricing",
+    "plugin"
+  ],
+  "author": "zhangle83",
+  "license": "MIT",
+  "homepage": "https://github.com/zhangle83/dsh-siliconflow-usage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangle83/dsh-siliconflow-usage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangle83/dsh-siliconflow-usage/issues"
+  },
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["slots", "locale"]
+    }
+  }
+}

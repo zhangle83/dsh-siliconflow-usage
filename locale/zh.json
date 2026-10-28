@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SiliconFlow 用量",
+    "description": "在侧边栏显示当前 SiliconFlow 模型的单价与谷时倒计时，并在输入框上方显示本会话的 token 用量与估算花费。"
+  }
+}

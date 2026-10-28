@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SiliconFlow Usage",
+    "description": "Shows the current SiliconFlow model price and off-peak countdown in the sidebar, and this session's token usage and estimated cost above the composer."
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SiliconFlow usage">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#F3F0FF"/>
+  <path d="M20 15h21a5 5 0 0 1 5 5v16.2a5 5 0 0 1-1.46 3.54l-9.8 9.8a5 5 0 0 1-7.08 0l-13.2-13.2a5 5 0 0 1 0-7.08l5.54-5.54V20a5 5 0 0 1 5-5Z" fill="#6E29F6"/>
+  <circle cx="36" cy="24" r="4" fill="#F3F0FF"/>
+  <path d="M14 41c5-3.5 10-3.5 15 0s10 3.5 15 0" fill="none" stroke="#14B8A6" stroke-width="4" stroke-linecap="round"/>
+</svg>

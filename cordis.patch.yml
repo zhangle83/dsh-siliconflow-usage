@@ -1,0 +1,6 @@
+# dsh-siliconflow-usage: a sidebar price card plus a per-session token/cost strip.
+# The Host half registers the local /api/siliconflow-* routes; the Client half
+# renders both cards. This package is installed from the workspace directory.
+- insert:
+    - id: siliconflow-usage
+      name: dsh-siliconflow-usage
